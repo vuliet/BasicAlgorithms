@@ -13,4 +13,6 @@ MergeSort.MergeSortResult();
 
 BreadthFirstSearch.BreadthFirstSearchResult();
 
+DepthFirstSearch.DepthFirstSearchResult();
+
 Console.ReadLine();

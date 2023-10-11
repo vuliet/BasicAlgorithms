@@ -1,5 +1,18 @@
 ﻿namespace BasicAlgorithms
 {
+    // 1.Duyệt Theo Chiều Rộng:
+    // BFS duyệt đồ thị theo chiều rộng,
+    // tức là nó trước tiên duyệt qua tất cả các đỉnh cùng cấp (cùng khoảng cách từ đỉnh bắt đầu) trước khi di chuyển đến các đỉnh kế tiếp.
+    //
+    // 2.Queue:
+    // BFS sử dụng một hàng đợi(queue) để theo dõi các đỉnh cần duyệt.Đỉnh xuất khỏi hàng đợi là đỉnh đang xét,
+    // và tất cả các đỉnh kề của nó được thêm vào hàng đợi.
+    //
+    // 3.Đỉnh Bắt Đầu:
+    // Thuật toán bắt đầu từ một đỉnh bắt đầu và thăm tất cả các đỉnh kề của nó trước khi di chuyển đến các đỉnh kề của các đỉnh đó.
+    // 
+    // 4.Duyệt Toàn Bộ:
+    // BFS đảm bảo duyệt qua toàn bộ đồ thị, đảm bảo rằng tất cả các đỉnh sẽ được duyệt và không bỏ sót.
     public class BreadthFirstSearch
     {
         private int v; // Số đỉnh
@@ -65,6 +78,7 @@
             Console.WriteLine("Duyet BFS tu dinh 0:");
             graph.BreadthFirstSearchHandler(0);
 
+            Console.WriteLine();
             Console.WriteLine();
         }
     }
