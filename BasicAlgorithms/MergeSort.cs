@@ -27,7 +27,6 @@
             int n1 = mid - low + 1;
             int n2 = high - mid;
 
-            // Tạo mảng tạm để lưu các nửa con
             int[] left = new int[n1];
             int[] right = new int[n2];
 
