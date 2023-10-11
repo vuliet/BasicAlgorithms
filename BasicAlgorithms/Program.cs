@@ -11,4 +11,6 @@ QuickSort.QuickSortResult();
 
 MergeSort.MergeSortResult();
 
+BreadthFirstSearch.BreadthFirstSearchResult();
+
 Console.ReadLine();

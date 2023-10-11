@@ -11,7 +11,7 @@
     // 8.Nếu trái lớn hơn phải thì đây là giá trị chốt mới.
     public static class QuickSort
     {
-        public static void QuickSortHandler(int[] arr, int left, int right)
+        private static void QuickSortHandler(int[] arr, int left, int right)
         {
             if (arr == null || arr.Length == 0)
                 return;
