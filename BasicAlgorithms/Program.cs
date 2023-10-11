@@ -3,10 +3,12 @@
 Console.WriteLine("BasicAlgorithms");
 Console.WriteLine();
 
-//IsPrime.CheckNumberIsPrime();
+IsPrime.CheckNumberIsPrime();
 
-//IsPerfect.CheckIsPerfectNumber();
+IsPerfect.CheckIsPerfectNumber();
 
 QuickSort.QuickSortResult();
+
+MergeSort.MergeSortResult();
 
 Console.ReadLine();

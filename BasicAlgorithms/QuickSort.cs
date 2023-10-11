@@ -54,6 +54,8 @@
 
         public static void QuickSortResult()
         {
+            Console.WriteLine("Thuat toan QuickSort: ");
+
             var arrUseQuickSort = new int[] { 6, 2, 3, 4, 5, 9, 1 };
 
             var left = 0;
@@ -63,6 +65,9 @@
 
             for (int i = 0; i < arrUseQuickSort.Length; i++)
                 Console.Write($"{arrUseQuickSort[i]} ");
+
+            Console.WriteLine();
+            Console.WriteLine();
         }
     }
 }
