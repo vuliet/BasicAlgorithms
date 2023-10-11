@@ -64,7 +64,7 @@
 
         public static void BreadthFirstSearchResult()
         {
-            Console.WriteLine("Thuat toan Breadth-First Search");
+            Console.WriteLine("Thuat toan Breadth-First Search:");
 
             BreadthFirstSearch graph = new BreadthFirstSearch(8);
             graph.AddEdge(0, 1);

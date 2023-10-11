@@ -53,7 +53,7 @@
 
         public static void DepthFirstSearchResult()
         {
-            Console.WriteLine("Thuat toan Depth-First Search");
+            Console.WriteLine("Thuat toan Depth-First Search:");
 
             DepthFirstSearch graph = new DepthFirstSearch(8);
             graph.AddEdge(0, 1);

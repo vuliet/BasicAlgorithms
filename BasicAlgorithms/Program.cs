@@ -15,4 +15,6 @@ BreadthFirstSearch.BreadthFirstSearchResult();
 
 DepthFirstSearch.DepthFirstSearchResult();
 
+BinarySearch.BinarySearchResult();
+
 Console.ReadLine();
