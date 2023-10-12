@@ -18,7 +18,7 @@ namespace BasicAlgorithms
         private static int GreatestCommonDivisorHandler(List<int> numbers)
         {
             if (numbers == null || numbers.Count == 0)
-                throw new ArgumentException("Danh sách số không hợp lệ");
+                throw new ArgumentException("Danh sach so khong hop le");
 
             int result = numbers[0];
             for (int i = 1; i < numbers.Count; i++)
