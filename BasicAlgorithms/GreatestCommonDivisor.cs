@@ -27,6 +27,14 @@ namespace BasicAlgorithms
             return result;
         }
 
+        private static string ReplaceCharToEmpty(List<string> chars, string data)
+        {
+            foreach (var item in chars)
+                data = data.Replace(item, "");
+
+            return data;
+        }
+
         public static void GreatestCommonDivisorHandlerResult()
         {
             Console.WriteLine("Thuat toan Greatest Common Divisor:");
@@ -37,7 +45,9 @@ namespace BasicAlgorithms
             {
                 int result = GreatestCommonDivisorHandler(numbers);
 
-                var numbersConvertToString = JsonConvert.SerializeObject(numbers).Replace("[", "").Replace("]", "");
+                var numbersConvertToString = JsonConvert.SerializeObject(numbers);
+
+                numbersConvertToString = ReplaceCharToEmpty(new List<string> { "[", "]" }, numbersConvertToString);
 
                 Console.WriteLine($"Uoc so chung lon nhat cua: {numbersConvertToString} la {result}.");
             }
