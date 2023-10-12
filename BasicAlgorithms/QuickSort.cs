@@ -37,9 +37,7 @@
 
                 if (i <= j)
                 {
-                    int temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
+                    (arr[j], arr[i]) = (arr[i], arr[j]);
                     i++;
                     j--;
                 }
