@@ -19,4 +19,6 @@ BinarySearch.BinarySearchResult();
 
 DigitalRoot.DigitalRootResult();
 
+GreatestCommonDivisor.GreatestCommonDivisorHandlerResult();
+
 Console.ReadLine();
