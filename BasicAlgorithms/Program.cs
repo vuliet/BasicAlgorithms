@@ -17,4 +17,6 @@ DepthFirstSearch.DepthFirstSearchResult();
 
 BinarySearch.BinarySearchResult();
 
+DigitalRoot.DigitalRootResult();
+
 Console.ReadLine();
