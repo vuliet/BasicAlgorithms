@@ -39,7 +39,7 @@ namespace BasicAlgorithms
 
                 var numbersConvertToString = JsonConvert.SerializeObject(numbers).Replace("[", "").Replace("]", "");
 
-                Console.WriteLine($"Uoc so chung lon nhat cua: {numbersConvertToString} là {result}.");
+                Console.WriteLine($"Uoc so chung lon nhat cua: {numbersConvertToString} la {result}.");
             }
             catch (ArgumentException ex)
             {
