@@ -2,7 +2,7 @@
 
 namespace BasicAlgorithms
 {
-    public class GreatestCommonDivisor
+    public static class GreatestCommonDivisor
     {
         private static int GreatestCommonDivisorHandler(int a, int b)
         {
@@ -27,7 +27,7 @@ namespace BasicAlgorithms
             return result;
         }
 
-        private static string ReplaceCharToEmpty(List<string> chars, string data)
+        private static string ReplaceCharToEmpty(this string data, List<string> chars)
         {
             foreach (var item in chars)
                 data = data.Replace(item, "");
@@ -47,7 +47,7 @@ namespace BasicAlgorithms
 
                 var numbersConvertToString = JsonConvert.SerializeObject(numbers);
 
-                numbersConvertToString = ReplaceCharToEmpty(new List<string> { "[", "]" }, numbersConvertToString);
+                numbersConvertToString = numbersConvertToString.ReplaceCharToEmpty(new List<string> { "[", "]" });
 
                 Console.WriteLine($"Uoc so chung lon nhat cua: {numbersConvertToString} la {result}.");
             }
