@@ -9,23 +9,24 @@
             var number = 3;
 
             bool isPrime = true;
-            if (number < 2)
-                isPrime = false;
 
-            for (int i = 2; i <= number / 2; i++)
+            if (number < 2)
             {
-                if (number % i == 0)
+                isPrime = false;
+            }
+            else
+            {
+                for (int i = 2; i <= Math.Sqrt(number); i++)
                 {
-                    isPrime = false;
-                    break;
+                    if (number % i == 0)
+                    {
+                        isPrime = false;
+                        break;
+                    }
                 }
             }
 
-            if (isPrime)
-                Console.WriteLine($"{number} la so nguyen to.");
-            else
-                Console.WriteLine($"{number} khong phai so nguyen to.");
-
+            Console.WriteLine($"{number} {(isPrime ? "la so nguyen to." : "khong phai so nguyen to.")}");
             Console.WriteLine();
         }
     }
