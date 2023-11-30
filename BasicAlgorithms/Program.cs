@@ -3,22 +3,26 @@
 Console.WriteLine("BasicAlgorithms");
 Console.WriteLine();
 
-IsPrime.CheckNumberIsPrime();
+//IsPrime.CheckNumberIsPrime();
 
-IsPerfect.CheckIsPerfectNumber();
+//IsPerfect.CheckIsPerfectNumber();
 
-QuickSort.QuickSortResult();
+//QuickSort.QuickSortResult();
 
-MergeSort.MergeSortResult();
+//MergeSort.MergeSortResult();
 
-BreadthFirstSearch.BreadthFirstSearchResult();
+//BreadthFirstSearch.BreadthFirstSearchResult();
 
-DepthFirstSearch.DepthFirstSearchResult();
+//DepthFirstSearch.DepthFirstSearchResult();
 
-BinarySearch.BinarySearchResult();
+//BinarySearch.BinarySearchResult();
 
-DigitalRoot.DigitalRootResult();
+//DigitalRoot.DigitalRootResult();
 
-GreatestCommonDivisor.GreatestCommonDivisorHandlerResult();
+//GreatestCommonDivisor.GreatestCommonDivisorHandlerResult();
+
+//Fibonacci.FibonacciResult();
+
+DataStructure.IsStringValidResult();
 
 Console.ReadLine();
