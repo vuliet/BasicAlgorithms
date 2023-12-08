@@ -4,7 +4,7 @@
     {
         public static bool IsStringValid(string input)
         {
-            Stack<char> stack = new Stack<char>();
+            Stack<char> stack = new();
 
             foreach (char character in input)
             {
